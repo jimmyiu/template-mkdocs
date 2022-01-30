@@ -20,3 +20,9 @@ $ make serve
 ```
 
 And the access <http://localhost:8000>
+
+
+## References
+
+https://facelessuser.github.io/pymdown-extensions/
+https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/

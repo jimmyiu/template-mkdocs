@@ -1,1 +1,17 @@
 site_name: My Docs
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        # Mermaid diagrams
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - extra/optionalConfig.js
+  - https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js
+  - extra/extra-loader.js
